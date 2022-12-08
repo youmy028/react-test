@@ -3,13 +3,15 @@ import ContextEx from "./ContextEX";
 import EffectEx from "./EffectEx";
 import ReducerEx from "./ReducerEx";
 import StateEx from "./StateEx";
+import MemoEx from "./MemoEx";
 const App = () => {
   return (
     <>
-      <EffectEx />
-      <ReducerEx />
-      <StateEx />
-      <ContextEx />
+      {/* <EffectEx /> */}
+      {/* <ReducerEx /> */}
+      {/* <StateEx /> */}
+      {/* <ContextEx /> */}
+      <MemoEx/>
     </>
   );
 };
